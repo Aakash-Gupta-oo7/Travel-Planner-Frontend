@@ -1,0 +1,396 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.55;
+  font-family: sans-serif;
+}
+/* Top Box */
+#tp-1 {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: red; */
+  background-image: url("Img1.jpeg");
+  background-size: cover; /* This makes the image cover the entire element */
+  background-repeat: no-repeat; /* This prevents the image from repeating */
+  background-position: center; /*This centers the image */
+}
+/* Top Header */
+#tp-hdr {
+  width: 100vw;
+  max-width: 936px;
+  padding: 32px 0;
+  /* background-color: yellowgreen; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/* Logo */
+#logo {
+  font-size: 1.5rem;
+  font-family: poppins;
+  font-weight: bold;
+  padding-left: 32px;
+}
+/* List in header */
+#tp-lst {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.tp-1-lnk {
+  margin-right: 32px;
+  font-size: 16px;
+}
+
+#tp-btn {
+  padding: 7px 28px;
+  margin-right: 0px;
+  padding-bottom: 8px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #370511;
+  border-radius: 50px;
+  border-width: 0;
+}
+/* Mid box */
+#md-bx {
+  height: 402px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-content: space-around;
+  padding: 92px 0;
+  /* background-color: gold; */
+}
+#md-bx-md {
+  margin-left: 165px;
+}
+/* Text in top mid box */
+#tp-id-1 {
+  font-size: 3rem;
+}
+#tp-id-2 {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+#tp-bx-itm3 {
+  margin: 32px 0;
+}
+#tp-id-3 {
+  font-weight: 400;
+  font-size: 16px;
+}
+#tp-id-4 {
+  font-weight: 400;
+  font-size: 16px;
+}
+/* Button */
+#tp-btn-1 {
+  padding: 7px 28px;
+  color: white;
+  border-radius: 50px;
+  background-color: #370511;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  border-width: 0;
+}
+#burger {
+  display: none;
+  color: black;
+}
+/* Middle Box */
+#tp-2 {
+  padding: 64px 16px;
+  /* width: 100%; */
+  /* background-color: gold; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#tp-2-h11 {
+  font-size: 2em;
+  font-weight: bold;
+}
+#tp-2-h21 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #595959;
+}
+
+/* Main box for cards */
+#tp-2-bx {
+  margin: 32px 0;
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 calc(25.33% - 10px);
+  justify-content: center;
+  flex-direction: row;
+  gap: 32px;
+}
+
+/* For each box */
+.tp-2-in {
+  width: 300px;
+  max-width: 300px;
+  justify-content: space-between;
+  /* margin: 40px; */
+  /* margin-bottom: 20px; */
+  /* background-color: bisque; */
+  flex: 1 1 calc(33.33% - 20px);
+}
+/* Image in box */
+.tp-2-img {
+  height: 250px;
+  /* background-color: yellowgreen; */
+  border-radius: 8px 8px 0 0;
+  height: 250px;
+  /* background-color: rgb(186, 193, 186); */
+  background-size: cover; /* This makes the image cover the entire element */
+  background-repeat: no-repeat; /* This prevents the image from repeating */
+  background-position: center; /* This centers the image */
+}
+/* Text box */
+.tp-2-rst {
+  padding: 16px;
+  /* background-color: bisque; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.txt {
+  margin-bottom: 24px;
+  max-width: 250px;
+  font-size: 12px;
+  text-align: left;
+}
+/* Button */
+.tp-2-rst-btn {
+  padding: 14px 28px;
+  border-width: 1px;
+  border-radius: 50px;
+  background-color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+#l {
+  background-image: url("London.jpeg");
+}
+#r {
+  background-image: url("rome.jpeg");
+}
+#c {
+  background-image: url("Cluj-Napoca.jpeg");
+}
+#p {
+  background-image: url("paris.jpeg");
+}
+#am {
+  background-image: url("Amsterdam.jpeg");
+}
+#b {
+  background-image: url("Barcelona.jpeg");
+}
+.tp-2-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Footer */
+#footer {
+  height: 100%;
+  padding: 48px;
+  display: flex;
+  background-color: black;
+  color: white;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+/* Inner box */
+#footer-in {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#logo2 {
+  font-size: 2em;
+  font-weight: bold;
+}
+#fot-lst {
+  display: flex;
+  font-display: row;
+  justify-content: space-between;
+  min-width: 380px;
+  overflow-wrap: break-word;
+  white-space: normal;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+.fot-lst-in {
+  list-style: none;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+.ftr-lst-itm {
+  margin: 0 0 16px;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#f-us-o {
+  margin-bottom: 8px;
+}
+.icon {
+  color: white;
+  font-size: 28px;
+}
+.fab {
+  font-size: 20px;
+}
+
+/* Responsive */
+
+
+/* .tp-2-in{
+          display: flex;
+          width: 200px;
+          justify-content: center;
+          flex-direction: column;
+      } */
+
+/* #tp-2-bx{
+          display:flex;
+          justify-content: center;
+          flex-direction: column;
+          align-items: center;
+          gap: 20px;
+      
+      }
+      .tp-2-img{
+          display: flex;
+          width: 200px;
+          height: 250px;
+      } */
+#footer-in {
+  display: flex;
+  flex-direction: row;
+}
+#fot-lst {
+  min-width: 430px;
+  margin: 42px;
+}
+#logo2 {
+  /* margin: 20px; */
+  justify-content: space-between;
+}
+
+@media (max-width: 475px) {
+  .tp-2-img {
+    width: 300px;
+    height: 250px;
+  }
+}
+@media (max-width: 478px) {
+  #tp-id-1 {
+    font-size: 32px;
+  }
+  #tp-id-2 {
+    font-size: 20.8px;
+  }
+  #footer {
+    display: none;
+  }
+}
+
+@media (max-width: 769px) {
+  #md-bx-md {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 0;
+  }
+  #md-bx {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #tp-id-1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 769px) {
+  #tp-1 {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    flex: 1 1;
+  }
+  #tp-hdr {
+    display: flex;
+    justify-content: space-between;
+  }
+  #lnks {
+    display: none;
+  }
+
+  #tp-lst {
+    display: flex;
+    justify-content: center;
+  }
+
+  #md-bx {
+    height: 402px;
+  }
+  #md-bx-md {
+    height: 402px;
+    margin-top: 98px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #burger {
+    display: block;
+    color: black;
+    margin-right: 20px;
+    font-size: 24px;
+    margin-right: 32px;
+    font-weight: bold;
+  }
+  #footer-in{
+    display: flex;
+    flex-direction: column;
+  }
+}
